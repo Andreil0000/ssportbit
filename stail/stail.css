@@ -1,63 +1,75 @@
 body {
    font-family: 'Montserrat', sans-serif;
-   font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
-
-.header-item {
-   background-image: url(../images/logo.svg);
-   width: 145px;
-   height: 37px;
-   margin: 60px 560px;
+header{
+padding-top: 60px;
 }
-
-.title {
+.container{
+ width: 1100px;
+ margin: auto;
+}
+.logo{
+margin: 0 auto;
+display: block;
+}
+.offer-wrapper{
+   display: flex;
+   align-items: center;
+   justify-content:space-between;
+   margin-top: 77px;
+}
+.offer{
+ width: 459px;
+ margin-bottom:24px;
+}
+.promo{
    color: #000;
    font-family: Open Sans;
    font-size: 50px;
    font-style: normal;
    font-weight: 700;
-   line-height: 140%;
-   margin: 0px 0px;
+   line-height: 140%
 }
-
-.description {
+.introtext{
    color: #000;
    font-family: Open Sans;
    font-size: 18px;
    font-style: normal;
    font-weight: 400;
    line-height: 136.682%;
+   margin-bottom: 45px;
 }
-
-.link {
+.btn{
    display: flex;
-   padding: 24px 67px;
+   padding: 20px 70px;
    align-items: flex-start;
-   gap: 10px;
    border-radius: 100px;
    background: #000;
-   width: 81px;
+   gap: 10px;
    color: #FFF;
    font-family: Open Sans;
    font-size: 18px;
    font-style: normal;
    font-weight: 700;
    line-height: 136.7%;
+   width: 78px;
    text-decoration: none;
 }
-
-.itell {
-   margin: 18px 79px;
-}
-
-.container {
-   max-Width: 1009px;
-   margin: 0 auto;
-   padding-left: 15px;
-   padding-right: 15px;
-}
-
-.bg-box {
+.btn:hover{
    display: flex;
-   align-items: center;
+   padding: 20px 70px;
+   align-items: flex-start;
+   border-radius: 100px;
+   background: #6D50A8;
+   gap: 10px;
+   color: #FFF;
+   font-family: Open Sans;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 136.7%;
+   width: 78px;
+   text-decoration: none;
 }
