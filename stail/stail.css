@@ -1,0 +1,63 @@
+body {
+   font-family: 'Montserrat', sans-serif;
+   font-family: 'Roboto', sans-serif;
+}
+
+.header-item {
+   background-image: url(../images/logo.svg);
+   width: 145px;
+   height: 37px;
+   margin: 60px 560px;
+}
+
+.title {
+   color: #000;
+   font-family: Open Sans;
+   font-size: 50px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 140%;
+   margin: 0px 0px;
+}
+
+.description {
+   color: #000;
+   font-family: Open Sans;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 136.682%;
+}
+
+.link {
+   display: flex;
+   padding: 24px 67px;
+   align-items: flex-start;
+   gap: 10px;
+   border-radius: 100px;
+   background: #000;
+   width: 81px;
+   color: #FFF;
+   font-family: Open Sans;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 136.7%;
+   text-decoration: none;
+}
+
+.itell {
+   margin: 18px 79px;
+}
+
+.container {
+   max-Width: 1009px;
+   margin: 0 auto;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+.bg-box {
+   display: flex;
+   align-items: center;
+}
