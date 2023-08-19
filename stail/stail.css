@@ -2,13 +2,21 @@ body {
    font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto', sans-serif;
+
 }
 header{
 padding-top: 60px;
 }
 .container{
- width: 1100px;
+ width: 1110px;
  margin: auto;
+}
+h1,h2,h3,h4,h5,h6{
+   margin:0;
+   font-weight: 700;
+}
+p{
+   margin: 0;
 }
 .logo{
 margin: 0 auto;
@@ -21,8 +29,8 @@ display: block;
    margin-top: 77px;
 }
 .offer{
- width: 459px;
- margin-bottom:24px;
+   width: 464px;
+   margin-bottom: 24px
 }
 .promo{
    color: #000;
@@ -30,7 +38,8 @@ display: block;
    font-size: 50px;
    font-style: normal;
    font-weight: 700;
-   line-height: 140%
+   line-height: 140%;
+   margin-bottom: 66px;
 }
 .introtext{
    color: #000;
@@ -39,7 +48,8 @@ display: block;
    font-style: normal;
    font-weight: 400;
    line-height: 136.682%;
-   margin-bottom: 45px;
+   margin-top: -50px;
+   margin-bottom: 31px
 }
 .btn{
    display: flex;
@@ -72,4 +82,144 @@ display: block;
    line-height: 136.7%;
    width: 78px;
    text-decoration: none;
+}
+h2{
+   color: #000;
+   font-family: Open Sans;
+   font-size: 40px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 140%;
+   text-align: center;
+}
+.practice{
+  padding-top: 120px;
+  margin-bottom: 120px;
+}
+.digit-item{
+  display: flex;
+  align-items: center;
+}
+.digit{
+   color: #000; 
+   font-family: Open Sans;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 136.7%;
+   border: 1px solid #000; 
+   width: 77px;
+   height: 77px;
+   border-radius: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 34px;
+}
+.digit-title{
+   color: #000;
+   font-family: Open Sans;
+   font-size: 30px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   margin-bottom: 11px;
+}
+.digit-text{
+   color: #000;
+   font-family: Open Sans;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 136.7%; /* 24.606px */
+   width: 520px;
+}
+.digits{
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  width: 720px;
+  margin: 70px auto 0 auto;
+}
+.bg-box{
+ border-radius: 60px;
+background: linear-gradient(148deg, #E8FFE8 0%, #D1F0FF 100%);
+padding: 7px 186px 53px;
+}
+.bg-item{
+   display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 85px;
+}
+.bg-title{
+   color: #000;
+font-family: Open Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%;
+width: 432px;
+padding-bottom: 23px;
+}
+.bg-text{
+   color: #000;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 136.7%; /* 24.606px */
+width: 371px;
+padding-bottom: 28px;
+}
+.btnn{
+   display: flex;
+   padding: 20px 70px;
+   align-items: flex-start;
+   border-radius: 100px;
+   background: #000;
+   gap: 10px;
+   color: #FFF;
+   font-family: Open Sans;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 136.7%;
+   width: 78px;
+   text-decoration: none;
+}
+.btnn:hover {
+   display: flex;
+   padding: 20px 70px;
+   align-items: flex-start;
+   border-radius: 100px;
+   background: #6D50A8;
+   gap: 10px;
+   color: #FFF;
+   font-family: Open Sans;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 136.7%;
+   width: 78px;
+   text-decoration: none;
+}
+.bg{
+   width: 717px;
+   margin-bottom: 40px
+}
+.bg-images{
+margin-top: -47px;
+}
+.footer-logo{
+ text-align: center;
+ margin: 120px auto ;
+ color: #000;
+text-align: center;
+font-family: Open Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
